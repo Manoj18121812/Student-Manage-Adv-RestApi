@@ -11,4 +11,5 @@ public interface StudentRepository extends JpaRepository<Student,Integer> {
     List<Student> findByNameContaining(String namePart);
     List<Student> findByMarksGreaterThan(double marks);
     List<Student> findByMarksLessThan(double marks);
+
 }
